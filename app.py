@@ -1,12 +1,12 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
 
 app = Flask(__name__)
 
-# Default route
+# Redirect the root URL to the Fantuan page
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
+def home():
+    return redirect(url_for("fantuan"))
 
 # Fantuan route with pagination
 @app.route("/fantuan")
