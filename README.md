@@ -1,7 +1,7 @@
 # Final Project
 ## Project Overview
 
-### This project scrapes restaurant delivery data from the Fantuan website using Playwright, processes the data with pandas and serves it through a Flask web application. The application provides a paginated interface to explore the delivery data.
+### This project scrapes restaurant delivery data from the Fantuan website using Playwright, processes the data with pandas and serves it through a Flask web application. The application provides a paginated interface to explore the restaurant and delivery data.
 
 #### Install required Python packages:
 pip install playwright pandas flask
